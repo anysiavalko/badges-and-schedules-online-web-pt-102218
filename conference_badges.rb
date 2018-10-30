@@ -1,7 +1,8 @@
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+conferences badges do
+
 def batch_badge_creator(name)
-  conference_badges do
-    name
+    attendees.each
   puts "Hello, my name is #{name}."
